@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <path
+        d="M5 5 L5 85Z M15 5 L15 85Z M25 5 L25 85Z M35 5 L35 85Z M45 5 L45 85Z M55 5 L55 85Z M65 5 L65 85Z M75 5 L75 85Z M85 5 L85 85Z"
+        stroke="#404040"
+        stroke-width="1"
+  />
+  <path
+        d="M5 5 L85 5Z M5 15 L85 15Z M5 25 L85 25Z M5 35 L85 35Z M5 45 L85 45Z M5 55 L85 55Z M5 65 L85 65Z M5 75 L85 75Z M5 85 L85 85Z"
+        stroke="#404040"
+        stroke-width="1"
+  />
+  <circle cx="25" cy="25" r="1" stroke="#404040" fill="goldenrod" stroke-width="1"/>
+  <circle cx="65" cy="25" r="1" stroke="#404040" fill="goldenrod" stroke-width="1"/>
+  <circle cx="25" cy="65" r="1" stroke="#404040" fill="goldenrod" stroke-width="1"/>
+  <circle cx="65" cy="65" r="1" stroke="#404040" fill="goldenrod" stroke-width="1"/>
+</svg>
