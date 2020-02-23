@@ -60,7 +60,8 @@ export class Board {
       cell.group = this.groupSequence++;
     }
 
-    const groups = this.toSet(this.cells.map(x => x.group));
+    const groups = this.toSet(this.cells.map(x => x.group).filter(x => x.group !== cell.group));
+    groups.push(cell.group); // important: just added group should be checked the last
     groups.forEach(group => {
       if (!this.isGroupAlive(group)) {
         this.removeGroup(group);
