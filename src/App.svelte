@@ -88,6 +88,5 @@
 <div class="controls">
   <button on:click={clear}>Clear</button>
   <button on:click={randomize}>Random</button>
-  <button on:click={test}>Test</button>
-  <span>{group}</span>
+  <span>Group: {group}</span>
 </div>
